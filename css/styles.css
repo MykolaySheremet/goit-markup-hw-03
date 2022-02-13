@@ -123,33 +123,64 @@ address {
 }
 
 /* Main styles */
+/* Hero section */
 .hero-section{
   background-color: var(--second-background-color);
+  text-align: center;
+}
+.hero-section .container{
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .main-header{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-color-text);
+  margin-bottom: 30px;
 }
 .main-button{
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 28px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   color:var(--third-color-text);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; 
+  border: none;
+
 }
 .main-button:hover,
 .main-button:focus{
   background-color:#188CE8;
 }
+
+/* first section */
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.first-section{
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.list-first-section{
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 120px) / 4);
+}
+
+/* .list-first-section:not(:last-child){
+  margin-right: 30px;
+} */
 
 .trird-title{
   font-weight: 700;
@@ -158,6 +189,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color-text);
+  margin-bottom: 10px;
 }
 
 .desc-advantage{
@@ -166,6 +198,10 @@ address {
   letter-spacing: 0.03em;
   color: var(--second-color-text)
 }
+/* second section */
+.second.section{
+  padding-top: 0px;
+}
 .second-header{
   font-weight: 700;
   font-size: 36px;
@@ -173,17 +209,34 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color-text);
+  margin-bottom: 50px;
 }
+.ul-second-section{
+  display: flex;
+  justify-content: space-between;
+}
+.list-second-section{
+  flex-basis: calc((100% - 90px) / 3);
+}
+/* section - OUR team */
 .our-team{
   background-color: var(--third-background-color);
 }
+.team-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
 .team{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-color-text)
+  color: var(--main-color-text);
+  margin-bottom: 10px;
 }
 
 .team-profesion{
@@ -193,9 +246,19 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color:var(--second-color-text);
+  margin-bottom: 30px;
 }
 .card-member{
   background-color:#ffffff;
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+}
+.picture-member{
+  margin-bottom: 30px;
 }
 /* footer styles */
 .footer{
