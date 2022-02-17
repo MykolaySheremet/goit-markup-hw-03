@@ -43,7 +43,7 @@ address {
 .header{
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 .list {
   list-style: none;
@@ -127,11 +127,13 @@ address {
 .hero-section{
   background-color: var(--second-background-color);
   text-align: center;
-}
-.hero-section .container{
   padding-top: 200px;
   padding-bottom: 200px;
 }
+/* .hero-section .container{
+  padding-top: 200px;
+  padding-bottom: 200px;
+} */
 .main-header{
   font-weight: 900;
   font-size: 44px;
@@ -258,7 +260,6 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color:var(--second-color-text);
-  margin-bottom: 30px;
 }
 .card-member{
   background-color:#ffffff;
@@ -269,9 +270,13 @@ address {
   border-radius: 0px 0px 4px 4px;
 
 }
-.picture-member{
-  margin-bottom: 30px;
+.members-of-team{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+/* .picture-member{
+  margin-bottom: 30px;
+} */
 /* footer styles */
 .footer{
   background-color: var(--second-background-color);
